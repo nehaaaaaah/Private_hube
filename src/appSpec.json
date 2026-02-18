@@ -1,0 +1,219 @@
+{
+  "id": "8cacd979-3112-4998-a5ad-fc87106604d8",
+  "initialPrompt": "Create a website inspired by https://nehaaaaaah.github.io/private_hub/",
+  "siteName": "nehaaaaaah.github.io",
+  "brandBook": {
+    "tones": [
+      "professional",
+      "luxurious",
+      "calm",
+      "exclusive",
+      "discreet"
+    ],
+    "designStyle": {
+      "primaryStyle": [
+        "Elegant",
+        "Minimalist",
+        "Luxury"
+      ],
+      "supportingStyles": [
+        "Serene",
+        "Sophisticated",
+        "Discreet"
+      ]
+    },
+    "toneOfVoice": "Sophisticated, discreet, personalized, exclusive, comforting, trustworthy.",
+    "graphicElements": {
+      "icons": "Minimalist, line-based icons with a consistent stroke weight, matching the primary accent color or white.",
+      "stickers": "Not applicable for this elegant, discreet brand identity.",
+      "illustrations": "Abstract, sophisticated illustrations using the brand palette, focusing on soft shapes and subtle gradients, or high-quality photography."
+    },
+    "designSummary": "**The Quiet Luxury Canvas: A Synthesis of Elegance and Discretion**\n\nThe Vision: This brand identity is crafted to embody quiet luxury, premium personalization, and absolute discretion. Drawing inspiration from the elegant, minimalist aesthetic of nehaaaaaah.github.io and the 'Elegant' design personality, we aim to create an online sanctuary that feels exclusive, trustworthy, and sophisticated. The design will prioritize spaciousness, refined typography, and a restrained color palette to evoke comfort and premium service.\n\n**Execution Blueprint:**\n1. Layout as Breathing Room: Employ a generous, symmetrical layout with ample negative space to convey calm and importance. Avoid clutter at all costs.\n2. Typography as Refined Voice: Utilize a classic serif for headlines to establish gravitas and a clean sans-serif for body text to ensure readability and modern sophistication.\n3. Color as Understated Opulence: A dark, muted base palette will be accented with a single, refined metallic tone (gold) for key interactive elements, reinforcing the premium, discreet nature of the services.\n4. Components as Subtle Enhancements: Buttons and interactive elements will be understated, focusing on clarity and a premium feel rather than overt styling. Animations will be minimal and smooth, enhancing the user experience without distraction.",
+    "layout": {
+      "grid": {
+        "margins": "80px on all sides for main content areas.",
+        "padding": "24px for internal element spacing.",
+        "compositionApproach": "Symmetrical 12-column grid with generous gutters and margins.",
+        "spacing": {
+          "gaps": "24px (3x base unit)",
+          "rows": "80px",
+          "columns": "80px",
+          "compositionApproach": "Not specified"
+        }
+      },
+      "layoutDna": {
+        "contrastSpectrum": "High contrast between dark backgrounds and light text/accents.",
+        "densitySpectrum": "Spacious, airy, with significant negative space.",
+        "textVsImageEmphasis": "Balanced, with high-quality imagery supporting refined typography.",
+        "complexitySpectrum": "Minimalist, focusing on essential elements and clean lines.",
+        "gridAlignmentSpectrum": "Symmetrical and balanced, with elements precisely aligned to a grid.",
+        "negativeSpaceUsage": "Generous and intentional, used to frame content and create a sense of calm and luxury."
+      },
+      "heroSectionLayout": "**The Subtle Reveal**\nComposition (Tailwind Spec): Container (h-screen grid place-items-center p-8). Headline 'Exclusive Experiences, Tailored for You' (text-center text-6xl md:text-7xl font-bold leading-tight text-white).\nSignature Hook (Framer Motion Spec): Parent `motion.h1` uses `variants` with `transition: { staggerChildren: 0.05 }`. Each `motion.span` (if letters are split) has a variant with `initial={{ opacity: 0, y: 30 }}` and `animate={{ opacity: 1, y: 0 }}` with a `delayChildren` on the parent."
+    },
+    "components": {
+      "images": "Layout Role: Integrated seamlessly within the grid, often full-width or half-width. | Gallery Type: Clean, grid-based galleries with consistent spacing, or single large hero images.",
+      "buttons": "Primary: background-color: #FFD700, color: #111111, border-radius: 5px, padding: 12px 24px, font-weight: 600. Secondary: background-color: transparent, color: #FFFFFF, border: 1px solid #FFFFFF, border-radius: 5px, padding: 12px 24px.",
+      "containers": "Method: Whitespace, Style: 80px vertical margin between sections. Card-like containers with subtle background variations or borders if needed, but primarily defined by spacing."
+    },
+    "palette": {
+      "colors": {
+        "customColors": [
+          {
+            "name": "destructive",
+            "value": "#E53E3E"
+          },
+          {
+            "name": "destructiveForeground",
+            "value": "#FFFFFF"
+          },
+          {
+            "name": "accentGold",
+            "value": "#FFD700"
+          },
+          {
+            "name": "accentGoldForeground",
+            "value": "#111111"
+          }
+        ],
+        "background": "#111111",
+        "secondary": "#FFFFFF",
+        "foreground": "#FFFFFF",
+        "secondaryForeground": "#111111",
+        "primaryForeground": "#111111",
+        "primary": "#FFD700"
+      },
+      "paletteUsageGuide": "The primary color (#FFD700) is used for calls-to-action and key interactive elements, providing a subtle yet distinct highlight against the dark background. The background is a deep, muted dark grey (#111111) to create a sense of depth and luxury. Primary foreground text is white (#FFFFFF) for maximum readability. Secondary colors can be used for less critical elements or as subtle variations. Accent colors should be used sparingly to draw attention to specific features or services.",
+      "paletteAccessibilityNotes": "Ensure sufficient contrast between text and background colors. The primary color (#FFD700) has good contrast against the background (#111111). White text (#FFFFFF) on dark backgrounds generally meets accessibility standards. Test all color combinations with accessibility tools."
+    },
+    "typography": {
+      "headings": {
+        "font": {
+          "fontFamily": "playfair display",
+          "role": "headings",
+          "fontJustification": ""
+        },
+        "headingsAccessibilityNotes": "Ensure headings are semantically correct (h1, h2, etc.) and have sufficient contrast against their background. Font size should be large enough for easy reading.",
+        "headingsSimilarFonts": [],
+        "headingsUsageGuide": "Headings should be used for titles and major section breaks. Employ a generous line height and appropriate letter spacing to enhance readability and elegance. Use bold weights for emphasis where necessary, but maintain a refined appearance."
+      },
+      "paragraphs": {
+        "font": {
+          "fontFamily": "roboto",
+          "role": "paragraphs",
+          "fontJustification": ""
+        },
+        "paragraphsUsageGuide": "Paragraph text should be clear, concise, and highly readable. Maintain consistent line height and letter spacing. Avoid overly long lines of text. Use standard paragraph margins to separate blocks of content.",
+        "paragraphsSimilarFonts": [],
+        "paragraphsAccessibilityNotes": "Paragraph text must have excellent contrast against the background. Ensure font size is adequate for comfortable reading on various devices. Avoid justified text which can create uneven spacing and readability issues."
+      },
+      "customFontFamilies": {},
+      "fontSizes": [
+        {
+          "name": "xs",
+          "size": "0.75rem",
+          "lineHeight": "1.25",
+          "letterSpacing": "0.02em",
+          "fontWeight": "400"
+        },
+        {
+          "name": "sm",
+          "size": "0.875rem",
+          "lineHeight": "1.3",
+          "letterSpacing": "0.03em",
+          "fontWeight": "400"
+        },
+        {
+          "name": "base",
+          "size": "1rem",
+          "lineHeight": "1.5",
+          "letterSpacing": "0.03em",
+          "fontWeight": "400"
+        },
+        {
+          "name": "lg",
+          "size": "1.125rem",
+          "lineHeight": "1.5",
+          "letterSpacing": "0.03em",
+          "fontWeight": "400"
+        },
+        {
+          "name": "xl",
+          "size": "1.25rem",
+          "lineHeight": "1.4",
+          "letterSpacing": "0.04em",
+          "fontWeight": "500"
+        },
+        {
+          "name": "2xl",
+          "size": "1.5rem",
+          "lineHeight": "1.3",
+          "letterSpacing": "0.04em",
+          "fontWeight": "500"
+        },
+        {
+          "name": "3xl",
+          "size": "1.875rem",
+          "lineHeight": "1.2",
+          "letterSpacing": "0.05em",
+          "fontWeight": "600"
+        },
+        {
+          "name": "4xl",
+          "size": "2.25rem",
+          "lineHeight": "1.15",
+          "letterSpacing": "0.05em",
+          "fontWeight": "600"
+        },
+        {
+          "name": "5xl",
+          "size": "3rem",
+          "lineHeight": "1.1",
+          "letterSpacing": "0.06em",
+          "fontWeight": "700"
+        },
+        {
+          "name": "6xl",
+          "size": "3.75rem",
+          "lineHeight": "1.05",
+          "letterSpacing": "0.06em",
+          "fontWeight": "700"
+        },
+        {
+          "name": "7xl",
+          "size": "4.5rem",
+          "lineHeight": "1.0",
+          "letterSpacing": "0.07em",
+          "fontWeight": "700"
+        },
+        {
+          "name": "8xl",
+          "size": "6rem",
+          "lineHeight": "1.0",
+          "letterSpacing": "0.07em",
+          "fontWeight": "700"
+        },
+        {
+          "name": "9xl",
+          "size": "8rem",
+          "lineHeight": "1.0",
+          "letterSpacing": "0.08em",
+          "fontWeight": "700"
+        }
+      ],
+      "welcomeSectionTypography": {
+        "placement": "Centered, prominent display.",
+        "implementation": "Large, impactful 'Playfair Display' font for the main headline, with a subtle fade-in animation. Body text below uses 'Roboto' for clarity."
+      }
+    },
+    "originImagesUrls": []
+  },
+  "attachments": {
+    "contentImagesUrls": [],
+    "inspirationImagesUrls": [
+      "https://wixmp-c562ea68f10846b458285ce5.wixmp.com/scraped-screenshots/screenshot-1771436384214.webp"
+    ]
+  },
+  "status": "READY",
+  "plan": "\n\n```json\n{\n  \"sections\": [\n    {\n      \"id\": \"overview\",\n      \"title\": \"## Overview\",\n      \"content\": \"This site showcases exclusive private experiences with premium personalized services, emphasizing comfort and discretion through an elegant dark-themed design.\"\n    },\n    {\n      \"id\": \"key-features\",\n      \"title\": \"## Key features\",\n      \"content\": \"- **View Service Listing**: Browse all available exclusive private experiences.\\n- **View Service Details**: See detailed information about each premium service offering.\\n- **View About Information**: Learn about the philosophy and approach to personalized experiences.\\n- **Submit Contact Form**: Send inquiries for booking or additional information.\",\n      \"metadata\": [\n        { \"id\": \"view-service-listing\", \"name\": \"View Service Listing\" },\n        { \"id\": \"view-service-details\", \"name\": \"View Service Details\" },\n        { \"id\": \"view-about-information\", \"name\": \"View About Information\" },\n        { \"id\": \"submit-contact-form\", \"name\": \"Submit Contact Form\" }\n      ]\n    },\n    {\n      \"id\": \"structure\",\n      \"title\": \"## Structure\",\n      \"content\": \"- **Header (Reusable)**: Contains site name and navigation links to all main pages.\\n- **Home Page**: Introduces the exclusive private experiences with a hero section and overview of services.\\n- **Services Page**: Displays the complete listing of premium personalized services with detailed views.\\n- **About Page**: Presents information about the service philosophy and commitment to comfort and discretion.\\n- **Contact Page**: Provides a contact form for inquiries and booking requests.\\n- **Footer (Reusable)**: Contains additional links and contact information.\"\n    }\n  ],\n  \"apps\": [\n    {\n      \"id\": \"wix-cms\",\n      \"keyFeatures\": [\n        { \"id\": \"view-service-listing\", \"name\": \"View Service Listing\" },\n        { \"id\": \"view-service-details\", \"name\": \"View Service Details\" },\n        { \"id\": \"view-about-information\", \"name\": \"View About Information\" },\n        { \"id\": \"submit-contact-form\", \"name\": \"Submit Contact Form\" }\n      ]\n    }\n  ],\n  \"version\": \"4.0.1\"\n}\n```"
+}
